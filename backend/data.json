@@ -1,0 +1,59 @@
+{
+  "drivers": [
+    {
+      "id": 1,
+      "name": "Amit",
+      "car": "Toyota Innova",
+      "rating": 4.8,
+      "eta": 3
+    },
+    {
+      "id": 2,
+      "name": "Priya",
+      "car": "Honda City",
+      "rating": 4.7,
+      "eta": 5
+    },
+    {
+      "id": 3,
+      "name": "Ravi",
+      "car": "Maruti Swift",
+      "rating": 4.5,
+      "eta": 2
+    }
+  ],
+  "rides": [
+    {
+      "id": 1759751036712,
+      "riderName": "Abel",
+      "pickup": "abu",
+      "dropoff": "dabu",
+      "driver": {
+        "id": 3,
+        "name": "Ravi",
+        "car": "Maruti Swift",
+        "rating": 4.5,
+        "eta": 2
+      },
+      "fare": 144,
+      "status": "confirmed",
+      "requestedAt": "2025-10-06T11:43:56.712Z"
+    },
+    {
+      "id": 1759751015559,
+      "riderName": "Shriram",
+      "pickup": "Kalyan",
+      "dropoff": "Dubai",
+      "driver": {
+        "id": 3,
+        "name": "Ravi",
+        "car": "Maruti Swift",
+        "rating": 4.5,
+        "eta": 2
+      },
+      "fare": 128,
+      "status": "confirmed",
+      "requestedAt": "2025-10-06T11:43:35.559Z"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+import React from 'react';
+export default function Header(){ return (<header className="header"><div className="brand"><h1>RideNow</h1><p className="tag">Quick rides, simple demo</p></div><div className="user">Demo User</div></header>); }
